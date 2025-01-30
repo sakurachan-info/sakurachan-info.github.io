@@ -22,46 +22,103 @@
       name="twitter:description"
       content="さくらちゃんはさくらちゃんやぎぃ"
     />
+    <style>
+      body {
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 0.3rem;
+      }
+      .header_sakurachan {
+        padding: 0.3rem;
+        display: block;
+        font-size: 1.2em;
+      }
+      .header_ikenoboys {
+        padding: 0.25rem;
+        display: block;
+      }
+      .header_ikenoboys_title {
+        padding: 0.05rem;
+        display: block;
+        font-size: 0.8em;
+      }
+      .header_ikenoboys_name {
+        padding: 0.05rem;
+        display: block;
+        font-size: 1.2em;
+      }
+      .introduction {
+        padding: 0.3rem;
+      }
+      .contact {
+        padding: 0.3rem;
+      }
+      .activities {
+        padding: 0.1rem;
+      }
+      .activities_item {
+        padding: 0.2rem;
+        list-style-position: inside;
+      }
+      .ikebana {
+        padding: 0.3rem;
+      }
+    </style>
   </head>
   <body>
-    さくらちゃんはさくらちゃんやぎぃ...🐐
-    <ul>
-      <li>
+    <h1 class="header">
+      <span class="header_sakurachan">ヤギの🐐さくらちゃん</span>
+      <span class="header_ikenoboys"
+        ><span class="header_ikenoboys_title">IKENOBOYS</span
+        ><span class="header_ikenoboys_name">岡本 和也</span></span
+      >
+    </h1>
+    <div class="introduction">さくらちゃんはさくらちゃんやぎぃ...🐐</div>
+    <div class="contact">
+      出演や講演のご依頼は<a
+        href="https://forms.gle/3bcn3EpDMWB6YBMG9"
+        target="_blank"
+        rel="noopener noreferrer"
+        >お問い合わせフォーム</a
+      >よりご連絡ください。
+    </div>
+    <ul class="activities">
+      <li class="activities_item">
         <a href="./qbox">さくらちゃんぼっくす</a>
         <span>質問箱みたいなやつ</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://twitter.com/arowM_">ツイッター（X）</a>
         <span>ふだんはここにいるよ</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://www.ikenoboys.com/">IKENOBOYS</a>
         <span>人間さんのコスプレをしていけばなしてるよ</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://note.com/arowm_/">ヤギに学ぶ仕事術</a>
         <span>世界の真理を解き明かすよ</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a href="./posts">Sakura-chan blog</a>
         <span>英語の技術記事</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://qiita.com/arowM/">Qiita</a>
         <span>日本語の技術記事</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://github.com/arowM/">GitHub</a>
         <span>謎の設計図共有サイト</span>
       </li>
-      <li>
+      <li class="activities_item">
         <a target="_blank" href="https://amzn.to/3YpxRFe">プログラミングElm</a>
         <span
           >さくらちゃんがめちゃめちゃ素晴らしい創作的翻訳をした技術書だよ</span
         >
       </li>
     </ul>
-    <a href="https://x.com/arowM_/status/1876184416999117024"
+    <a class="ikebana" href="https://x.com/arowM_/status/1876184416999117024"
       ><img
         style="width: 90vw; max-width: 400px"
         src="https://pbs.twimg.com/media/GgmLp_vaAAA7GDR?format=jpg&name=medium"
